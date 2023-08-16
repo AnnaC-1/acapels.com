@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+    
+<head>
+    <title>Anna Capels</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatbile" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css -->
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header> 
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, My name is</h3>
+            <h1>Anna Capels</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Welcome to my portfolio website...Please take your time looking around and don't hesitate to reach out!</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/anna-capels-204327276/ "><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <!--DON'T FORGET TO UPDATE RESUME/CV-->
+            <a href="/Users/annacapels/Desktop/Personal Website/retrying/documents/CV-Anna_Capels.pdf" class="btn">Download CV </a>
+        </div>
+
+        <div class="home-img">
+            <img src="/Users/annacapels/Desktop/Personal Website/retrying/pictures /La Seine a Bougival en hiver ou Les Bords de la Seine en hiver - Sisley.jpg" height="auto" width="auto" alt=""> 
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/Users/annacapels/Desktop/Personal Website/retrying/pictures /La Seine a Bougival en hiver ou Les Bords de la Seine en hiver - Sisley.jpg" height="500" width="500" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Fronted Developer</h3>
+            <p> Hi there, let me introduce myself to you. My name is Anna and I'm currently pursuing a bachelor's degree at Colorado State University, 
+                majoring in Psychology and a minor in Applied Data Science. My technical skills include programming with languages such as  
+                Python (Pandas, Pysparks, BeautifulSoup/Selenium), Java, Tableau, HTML/CSS, R/RStudio, and SQL. Additionally, I am also proficient in all things Microsoft Office and Google Workspace.
+                ????ADD MORE EVENTUALLY...I'M TOO TIRED RN...
+                 </p>
+            <!--<a href="#" class="btn">Read More</a>-->
+        </div>
+    </section>
+
+
+    <!--Services section design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-dice-1'></i>
+                <h3>Skill 1</h3>
+                <p></p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+                <div class="services-box">
+                    <i class='bx bx-dice-2'></i>
+                    <h3>Skill 2</h3>
+                    <p></p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-dice-3'></i>
+                    <h3>Skill 3</h3>
+                    <p></p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        </div>
+    </section>
+
+<!--Portfolio section design-->
+<section class="portofolio" id="portfolio">
+    <h2 class="heading"> My <span> </span> Latest <span> Projects </span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="/Users/annacapels/Desktop/Personal Website/retrying/pictures /books.jpeg" height="207" width="auto" alt="">
+            <div class="portfolio-layer">
+                <h4>Book Recommendations</h4>
+                <p>A personal project exploring big data cleaning, creating decision trees, and generating nerual networks (KERAS) by fabricating a collaboritve book recommendation system.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="/Users/annacapels/Desktop/Personal Website/retrying/pictures /music_pic.jpeg" height="auto" width="auto" alt="">
+            <div class="portfolio-layer">
+                <h4>Analyzation of Lyrics</h4>
+                <p>A personal project to continue practicing Python through learning bits of NLP, EDA, and Web scraping/crawling by comparing and contrasting three artists lyrics.</p>
+                <a href="https://github.com/AnnaC-1/Lyric_Analysis"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="/Users/annacapels/Desktop/Personal Website/retrying/pictures /Go_board.jpeg" height="auto" width="auto" alt="">
+            <div class="portfolio-layer">
+                <h4>GO Exploratory Data Analysis (EDA)</h4>
+                <p>A personal project practicing cleaning, converting, EDA with pysparks.</p>
+                <a href="https://github.com/AnnaC-1/Go_EDA"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+   <!--contact section-->
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span> Me!</span></h2>
+
+    <form method="POST" action="send-email.php">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+
+<!--footer-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>
+            Go Back Up To Learn More! 
+            <!--write anything in footer here-->
+        </p>
+    </div>
+
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-circle'></i></a>
+    </div>
+</footer>
+
+
+<!--scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--typed js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--custom js-->
+    <script src="js/scriptcopy1.js"></script>
+</body>
+
+</html>
+
