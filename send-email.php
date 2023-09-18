@@ -1,3 +1,4 @@
+<?php
 session_start();
 
 // Step 1: Generate CSRF Token
@@ -40,3 +41,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     }
 }
+?>
