@@ -1,5 +1,4 @@
-session_start();
-
+<?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Process the Form Data
     $name = $_POST['name'];
@@ -26,4 +25,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header('Location: error.html');
         exit();
     }
+} else {
+    // Invalid request method
+    header('HTTP/1.1 405 Method Not Allowed');
+    exit();
 }
+?>s
