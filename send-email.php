@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $body = "Name: $name\nEmail: $email\nPhone: $phone\nSubject: $subject\nMessage:\n$message";
 
     // Send email
-    if (mail('annacapels@gmail.com', 'New message from your personal website', $body, $headers)) {
+    if (mail('acapels1.0@gmail.com', 'New message from your personal website', $body, $headers)) {
         // Email sent successfully
         header('Location: thank-you.html');
         exit();
